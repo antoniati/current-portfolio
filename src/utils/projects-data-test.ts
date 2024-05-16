@@ -1,4 +1,10 @@
-export const projectsData = [
+export interface ProjectsDataProps {
+      img: string;
+      title: string;
+      description: string;
+};
+
+export const projectsData: ProjectsDataProps[] = [
       {
             img: "/image-test/img-1.png",
             title: "Website",

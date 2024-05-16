@@ -3,10 +3,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BsGithub, BsLinkedin, BsList } from "react-icons/bs";
-import { Divider, Flex, Subtitle } from "@tremor/react";
+import { Button, Divider, Flex, Subtitle } from "@tremor/react";
 import { navItemData } from "@/utils/nav-item-data";
+import { LoginButton } from "../buttons/LoginButton";
 
-interface HeaderProps {
+interface MainHeaderProps {
       isAsideVisible: boolean;
       setIsAsideVisible: (isAsideVisible: boolean) => void;
 };
@@ -14,7 +15,7 @@ interface HeaderProps {
 export const MainHeader = ({
       isAsideVisible,
       setIsAsideVisible,
-}: HeaderProps) => {
+}: MainHeaderProps) => {
       const styleNavItem = "mt-1 hover:text-blue-700 hover:text-blue-700 font-medium transition-all duration-300";
 
       return (
@@ -48,20 +49,13 @@ export const MainHeader = ({
                                           );
                                     })}
 
-                                    <Flex className="justify-start space-x-4">
-                                          <Link
-                                                href={"https://www.linkedin.com/in/felipeantoniati/"}
-                                                className={`${styleNavItem}`}
-                                          >
-                                                <BsLinkedin size={26} />
-                                          </Link>
-                                          <Link
-                                                href={"https://github.com/antoniati"}
-                                                className={`${styleNavItem}`}
-                                          >
-                                                <BsGithub size={26} />
-                                          </Link>
-                                    </Flex>
+                                    <LoginButton pageUrl="/auth/login">
+                                          <Button variant="secondary">
+                                                <div className="mt-1">
+                                                      Conta Personalizada
+                                                </div>
+                                          </Button>
+                                    </LoginButton>
                               </ul>
                         </nav>
 

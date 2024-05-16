@@ -1,21 +1,49 @@
-import { MainHeader } from "@/components/Header";
-import { AsideMenu } from "@/components/Aside";
-import { HeroSection } from "@/components/HeroSection";
-import { DividerSections } from "@/components/DividerSections";
-import { ServicesSection } from "@/components/ServicesSection";
-import { ProjectSection } from "@/components/ProjectSection";
-import { PlanSection } from "@/components/PlanSection";
-import { FAQSection } from "@/components/FAQSection";
-import { Footer } from "@/components/Footer";
+import { AccountVerificationForm } from "@/components/forms/AccountVerificationForm";
+import { AnimBottomToTop } from "@/components/animations/AnimBottomToTop";
+import { AsideMenu } from "@/components/navigation/Aside";
+import { BeatLoading } from "@/components/loadings/BeatLoading";
+import { BounceLoading } from "@/components/loadings/BounceLoading";
+import { Doubts } from "@/components/footers/Doubts";
+import { FAQSection } from "@/components/sections/FAQSection";
+import { Footer } from "@/components/footers/Footer";
+import { FormToRequestNewPassword } from "@/components/forms/FormToRequestNewPassword";
+import { PageHeader } from "@/components/headers/PageHeader";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { MainHeader } from "@/components/headers/MainHeader";
+import { OrderForm } from "@/components/forms/OrderForm";
+import { PasswordResetForm } from "@/components/forms/PasswordResetForm";
+import { PlanSection } from "@/components/sections/PlanSection";
+import { PortifolioGrid } from "@/components/grids/PortifolioGrid";
+import { RecentPortifolioSection } from "@/components/sections/RecentPortifolioSection";
+import { ServicesSection } from "@/components/sections/ServicesSection";
+import { UserLoginForm } from "@/components/forms/UserLoginForm";
+import { UserRegisterForm } from "@/components/forms/UserRegisterForm";
+import { WrapperForm } from "@/components/forms/WrapperForm";
+import { SessionHeader } from "@/components/headers/SessionHeader";
+import { PortifolioPageManager } from "@/components/page-manager/PortifolioPageManager";
 
 export {
-      MainHeader,
+      AccountVerificationForm,
+      AnimBottomToTop,
       AsideMenu,
-      HeroSection,
-      ServicesSection,
-      DividerSections,
-      ProjectSection,
-      PlanSection,
+      BeatLoading,
+      BounceLoading,
+      Doubts,
       FAQSection,
       Footer,
+      FormToRequestNewPassword,
+      PageHeader,
+      HeroSection,
+      MainHeader,
+      OrderForm,
+      PasswordResetForm,
+      PlanSection,
+      PortifolioGrid,
+      RecentPortifolioSection,
+      ServicesSection,
+      UserLoginForm,
+      UserRegisterForm,
+      WrapperForm,
+      SessionHeader,
+      PortifolioPageManager
 };

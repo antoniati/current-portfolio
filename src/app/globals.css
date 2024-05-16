@@ -16,3 +16,8 @@
             @apply bg-slate-400 rounded-full;
       }
 }
+
+/* Global Styles */
+.main-container {
+      @apply px-4 sm:px-[40px] xl:px-[100px] space-y-[40px] pb-[40px];
+}

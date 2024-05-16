@@ -12,6 +12,9 @@ const config: Config = {
     transparent: 'transparent',
     current: 'currentColor',
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/thumbnail-portifolio.png')",
+      },
       colors: {
         // light mode
         tremor: {

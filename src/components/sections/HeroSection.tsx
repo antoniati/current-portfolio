@@ -35,7 +35,7 @@ export const HeroSection = () => {
       }, [index, currentWordIndex]);
 
       return (
-            <section className="w-full pt-[100px]">
+            <section className="w-full pt-[100px] pb-[40px]">
                   <Flex className="w-full sm:flex-row flex-col transition-all duration-300">
 
                         <div className="w-full flex items-center justify-center p-4">
