@@ -1,4 +1,4 @@
-import { HomePageManager } from "@/components/page-manager/HomePageManager";
+import { HomePageManager } from "@/components";
 
 export default function Home() {
   return (

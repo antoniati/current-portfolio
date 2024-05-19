@@ -1,7 +1,7 @@
 "use client";
 
 import { Divider, Flex, Tab, TabGroup, TabList, TabPanel, TabPanels, Title, } from "@tremor/react";
-import { BeatLoading, FAQSection, PlanSection, AnimBottomToTop, PageHeader, PortifolioGrid } from "@/components";
+import { BeatLoading, FAQSection, AnimBottomToTop, PageHeader, PortifolioGrid } from "@/components";
 import { useProductData } from "@/hooks/use-product-data";
 import { projectsData } from "@/utils/projects-data-test";
 
@@ -57,8 +57,6 @@ export const PortifolioPageManager = () => {
                                           </TabPanels>
                                     </AnimBottomToTop>
                               </TabGroup>
-
-                              <PlanSection />
                               <FAQSection />
                         </>
                   ) : (
@@ -67,5 +65,5 @@ export const PortifolioPageManager = () => {
                         </Flex>
                   )}
             </section>
-      )
-}
+      );
+};

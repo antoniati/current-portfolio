@@ -30,7 +30,7 @@ export const FAQSection = () => {
                   <div className='w-full flex items-center justify-center '>
                         <Button size="lg" className="w-[300px] rounded-tremor-small">
                               <p className="text-[16px] uppercase">
-                                    Contrate um Plano de Serviço
+                                    Contrate-me
                               </p>
                         </Button>
                   </div>

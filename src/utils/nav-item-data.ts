@@ -4,6 +4,7 @@ interface navItemProps {
 };
 
 export const navItemData: navItemProps[] = [
+      { text: "Home", url: "/" },
       { text: "Portifólio", url: "/portfolio" },
       { text: "Serviços", url: "/services" },
       { text: "Sobre", url: "/about" },

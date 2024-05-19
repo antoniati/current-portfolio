@@ -66,7 +66,7 @@ export const HeroSection = () => {
 
                               <Button size="lg" className="w-[300px] rounded-tremor-small">
                                     <p className="text-[16px] uppercase text-slate-50 mt-1">
-                                          Contrate um Plano de Serviço
+                                          Contrate-me
                                     </p>
                               </Button>
                         </Flex>

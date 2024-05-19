@@ -6,9 +6,8 @@ import {
       AsideMenu,
       FAQSection,
       Footer,
-      MainHeader,
+      Navbar,
       HeroSection,
-      PlanSection,
       RecentPortifolioSection,
       ServicesSection,
 } from "@/components";
@@ -19,13 +18,12 @@ export const HomePageManager = () => {
       return (
             <main>
                   <AsideMenu isAsideVisible={isAsideVisible} setIsAsideVisible={setIsAsideVisible} />
-                  <MainHeader isAsideVisible={isAsideVisible} setIsAsideVisible={setIsAsideVisible} />
+                  <Navbar isAsideVisible={isAsideVisible} setIsAsideVisible={setIsAsideVisible} />
                   <HeroSection />
                   <ServicesSection />
                   <RecentPortifolioSection />
-                  <PlanSection />
                   <FAQSection />
                   <Footer />
             </main>
-      )
-}
+      );
+};

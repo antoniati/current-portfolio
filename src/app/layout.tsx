@@ -21,6 +21,7 @@ export default function RootLayout({
     <html
       lang="pt-BR"
       className="light:bg-white text-slate-800 antialiased"
+      style={{ scrollbarWidth: "none" }}
     >
       <body className={inter.className}>
         {children}

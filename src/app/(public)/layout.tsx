@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { AsideMenu, Footer, MainHeader } from "@/components";
+import { AsideMenu, Footer, Navbar } from "@/components";
 
 export default function PublicLayout({
   children
@@ -13,7 +13,7 @@ export default function PublicLayout({
   return (
     <main>
       <AsideMenu isAsideVisible={isAsideVisible} setIsAsideVisible={setIsAsideVisible} />
-      <MainHeader isAsideVisible={isAsideVisible} setIsAsideVisible={setIsAsideVisible} />
+      <Navbar isAsideVisible={isAsideVisible} setIsAsideVisible={setIsAsideVisible} />
       {children}
       <Footer />
     </main>
