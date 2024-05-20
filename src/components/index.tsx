@@ -10,6 +10,7 @@ import { Footer } from "@/components/footers/Footer";
 import { FormToRequestNewPassword } from "@/components/forms/FormToRequestNewPassword";
 import { PageHeader } from "@/components/headers/PageHeader";
 import { HeroSection } from "@/components/sections/HeroSection";
+import { WorkWithMe } from "@/components/sections/WorkWithMe";
 import { Navbar } from "@/components/navbar/Navbar";
 import { OrderForm } from "@/components/forms/OrderForm";
 import { PasswordResetForm } from "@/components/forms/PasswordResetForm";
@@ -45,5 +46,6 @@ export {
       UserRegisterForm,
       WrapperForm,
       SessionHeader,
-      PortifolioPageManager
+      PortifolioPageManager,
+      WorkWithMe,
 };

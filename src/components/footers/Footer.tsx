@@ -18,9 +18,8 @@ export const Footer = () => {
                               <div>
                                     <h4 className="text-tremor-title font-medium">Suporte</h4>
                                     <ul className="space-y-2 mt-4">
+                                          <li><Button variant="light" size="lg">Contato</Button></li>
                                           <li><Button variant="light" size="lg">FAQ</Button></li>
-                                          <li><Button variant="light" size="lg">Planos</Button></li>
-                                          <li><Button variant="light" size="lg">Opções de pagamento</Button></li>
                                     </ul>
                               </div>
                               <div>
@@ -39,9 +38,9 @@ export const Footer = () => {
                         </Grid>
                   </div>
                   <Divider />
-                  <Flex className="px-[40px] sm:text-start text-center flex-col sm:flex-row gap-[20px] pb-[20px]">
-                        <h4 className="text-tremor-label">&#169; 2024 - Antoniati, Todos os Direitos Reservados. | Desenvolvido no Brasil</h4>
-                        <h4 className="text-tremor-label font-medium">
+                  <Flex className="py-[20px] px-4 md:px-[100px] flex-col sm:text-start text-center gap-[30px] sm:flex-row">
+                        <h4 className="text-tremor-label pb-[20px]">&#169; 2024 - Antoniati, Todos os Direitos Reservados. | Desenvolvido no Brasil</h4>
+                        <h4 className="text-tremor-label font-medium pb-[20px]">
                               Criado por: Antoniati
                         </h4>
                   </Flex>

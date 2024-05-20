@@ -34,7 +34,7 @@ export const PortifolioGrid = ({ projects }: PortifolioGridProps) => {
                                     <div className="absolute top-0 flex flex-col space-y-4 items-center justify-center w-full h-full p-4 bg-gradient-to-r from-sky-500/70 to-blue-700/90 opacity-0 hover:opacity-100 transition-all duration-500 text-white font-medium shadow-lg shadow-slate-700">
                                           <BsEye size={26} />
 
-                                          <Subtitle className="text-tremor-metric">
+                                          <Subtitle className="text-tremor-metric text-white">
                                                 {project.title}
                                           </Subtitle>
                                           <Text className="text-tremor-label">

@@ -10,6 +10,7 @@ import {
       HeroSection,
       RecentPortifolioSection,
       ServicesSection,
+      WorkWithMe,
 } from "@/components";
 
 export const HomePageManager = () => {
@@ -22,6 +23,7 @@ export const HomePageManager = () => {
                   <HeroSection />
                   <ServicesSection />
                   <RecentPortifolioSection />
+                  <WorkWithMe />
                   <FAQSection />
                   <Footer />
             </main>

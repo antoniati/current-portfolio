@@ -62,11 +62,18 @@ export const AsideMenu = ({ isAsideVisible, setIsAsideVisible }: AsideProps) => 
 
                                     <Divider />
 
-                                    <Button size="lg" className="w-full hover:rounded-tremor-small">
-                                          <p className="text-[16px] uppercase text-slate-50 mt-1">
-                                                Contrate-me
-                                          </p>
-                                    </Button>
+                                    <div className="w-full flex flex-col items-center gap-[20px]">
+                                          <Button className="w-[300px] sm:w-auto transition-all duration-300">
+                                                <p className="mt-1 uppercase">
+                                                      Entre em contato
+                                                </p>
+                                          </Button>
+                                          <Button variant="secondary" className="w-[300px] sm:w-auto transition-all duration-300">
+                                                <p className="mt-1 uppercase">
+                                                      Conta Personalizada
+                                                </p>
+                                          </Button>
+                                    </div>
                               </nav>
                         </>
                   )}

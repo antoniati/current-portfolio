@@ -28,7 +28,7 @@ export const Navbar = ({ isAsideVisible, setIsAsideVisible }: NavbarProps) => {
                   <Flex className="px-4 lg:px-[100px] py-4">
                         <Link href="/">
                               <Flex className="w-1/2 justify-start space-x-2">
-                                    <Image alt="Logotipo iDevStore" src="/logo.svg" width={26} height={26} />
+                                    <img alt="Logotipo iDevStore" src="/logo.svg" className="w-[26px]" />
                                     <Subtitle className="uppercase font-bold mt-1">Antoniati</Subtitle>
                               </Flex>
                         </Link>
@@ -39,6 +39,7 @@ export const Navbar = ({ isAsideVisible, setIsAsideVisible }: NavbarProps) => {
                                     <NavItem href="/about">Sobre</NavItem>
                                     <NavItem href="/portfolio">Portifólio</NavItem>
                                     <DropdownMenu label="Serviços" items={services} />
+                                    <NavItem href="/contact">contato</NavItem>
                                     <NavItem href="/faq">FAQ</NavItem>
                               </ul>
                               <LoginButton pageUrl="/auth/login">

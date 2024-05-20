@@ -11,7 +11,7 @@ interface WrapperFormProps {
 export const WrapperForm = ({ titleForm, descriptionForm, children }: WrapperFormProps) => {
       return (
             <AnimBottomToTop>
-                  <Flex className="w-full flex-col px-4 pt-[80px]">
+                  <Flex className="w-full flex-col px-4 py-[100px]">
                         <Card className="text-center max-w-lg h-[500px] flex flex-col items-center justify-center space-y-4 mt-[40px]">
                               <Subtitle className='font-bold text-slate-900' style={{ textTransform: 'uppercase' }}>
                                     {titleForm}

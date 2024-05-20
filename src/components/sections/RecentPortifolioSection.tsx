@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { Button } from "@tremor/react";
-import { PortifolioGrid, SessionHeader } from "@/components";
+import { AnimBottomToTop, PortifolioGrid, SessionHeader } from "@/components";
 import { projectsData } from "@/utils/projects-data-test";
 
 export const RecentPortifolioSection = () => {
@@ -15,20 +15,22 @@ export const RecentPortifolioSection = () => {
                         title=" Portifólio Recente"
                   />
 
-                  <PortifolioGrid projects={projectsData} />
+                  <AnimBottomToTop delay={0.5}>
+                        <PortifolioGrid projects={projectsData} />
+                  </AnimBottomToTop>
 
-                  <div className="w-full flex items-center justify-center">
-                        <Button
-                              size="lg"
-                              className="w-[300px] rounded-tremor-small"
-                              variant="secondary"
-                              onClick={() => router.push("/portfolio")}
-                        >
-                              <p className="text-[16px] uppercase mt-1">
-                                    Veja todos projetos
-                              </p>
-                        </Button>
-                  </div>
+                  <AnimBottomToTop delay={0.6}>
+                        <div className="w-full flex items-center justify-center mt-[40px]">
+                              <Button
+                                    className="w-auto sm:w-[200px]"
+                                    onClick={() => router.push("/portfolio")}
+                              >
+                                    <p className=" mt-1 uppercase">
+                                          Veja Todos Projetos
+                                    </p>
+                              </Button>
+                        </div>
+                  </AnimBottomToTop>
             </section>
       );
 };

@@ -19,5 +19,5 @@
 
 /* Global Styles */
 .main-container {
-      @apply px-4 sm:px-[40px] xl:px-[100px] space-y-[40px] pb-[40px];
+      @apply px-4 sm:px-[40px] xl:px-[100px] space-y-[20px] pb-[40px];
 }
